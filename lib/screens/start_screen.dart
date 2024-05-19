@@ -67,7 +67,7 @@ class _StartScreenState extends State<StartScreen> {
                                 Navigator.of(context).pushReplacementNamed('/home');
                           });
                         },
-                        child: const Text("Gallery"),
+                        child: const Text("Галерея"),
                       ),
                       ElevatedButton(
                         onPressed: () {
@@ -77,7 +77,7 @@ class _StartScreenState extends State<StartScreen> {
                                 Navigator.of(context).pushReplacementNamed('/home');
                           });
                         },
-                        child: const Text("Camera"),
+                        child: const Text("Камера"),
                       ),
                     ],
                   ),

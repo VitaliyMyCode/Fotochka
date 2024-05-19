@@ -36,7 +36,7 @@ class _CropScreenState extends State<CropScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: const CloseButton(color: Colors.white),
-        title: const Text("Crop", style: TextStyle(color: Colors.white),),
+        title: const Text("Обрезка", style: TextStyle(color: Colors.white),),
         actions: [
           IconButton(
               onPressed: () async {
@@ -58,7 +58,7 @@ class _CropScreenState extends State<CropScreen> {
               return CropImage(
                 controller: controller,
                 image: Image.memory(value.currentImage!),
-                alwaysMove: true,
+
 
               );
             }
@@ -100,7 +100,7 @@ class _CropScreenState extends State<CropScreen> {
                   ),
                 ),
                 _bottonBatItem(
-                    child: const Text('Free',
+                    child: const Text('Свободный',
                       style: TextStyle(
                         color: Colors.white
                       ),
